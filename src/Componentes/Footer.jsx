@@ -65,10 +65,10 @@ const Footer = ({ theme, setTheme }) => {
                 className='pb-2 text-sm text-gray-500 flex justify-center sm:justify-between gap-4 flex-wrap'>
                 <p>Copyright 2026 @ GreetStack - All Right Reserved. </p>
                 <div className='flex items-center justify-between gap-4'>
-                    <motion.img whileHover={{ scale: 1.2, y: -3 }} src={assets.facebook_icon} alt="" />
-                    <motion.img whileHover={{ scale: 1.2, y: -3 }} src={assets.twitter_icon} alt="" />
-                    <motion.img whileHover={{ scale: 1.2, y: -3 }} src={assets.instagram_icon} alt="" />
-                    <motion.img whileHover={{ scale: 1.2, y: -3 }} src={assets.linkedin_icon} alt="" />
+                    <motion.a whileHover={{ scale: 1.2, y: -3 }} href="https://facebook.com" target="_blank" rel="noopener noreferrer"><img src={assets.facebook_icon} alt="" /></motion.a>
+                    <motion.a whileHover={{ scale: 1.2, y: -3 }} href="https://twitter.com" target="_blank" rel="noopener noreferrer"><img src={assets.twitter_icon} alt="" /></motion.a>
+                    <motion.a whileHover={{ scale: 1.2, y: -3 }} href="https://instagram.com" target="_blank" rel="noopener noreferrer"><img src={assets.instagram_icon} alt="" /></motion.a>
+                    <motion.a whileHover={{ scale: 1.2, y: -3 }} href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><img src={assets.linkedin_icon} alt="" /></motion.a>
                 </div>
             </motion.div>
         </div>
